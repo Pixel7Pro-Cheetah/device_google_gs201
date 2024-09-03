@@ -676,10 +676,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	debug.sf.predict_hwc_composition_strategy=0
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.enable_advanced_sf_phase_offset=1
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.high_fps_early_phase_offset_ns=-4000000
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.high_fps_late_app_phase_offset_ns=1000000
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.frame_rate_multiple_threshold=120
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.treat_170m_as_sRGB=1
 
